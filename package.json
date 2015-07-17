@@ -1,0 +1,17 @@
+{
+  "name": "Lab-Flux-Todo",
+  "version": "1.0.0",
+  "description": "It's a simple lab for flux.",
+  "dependencies": {
+    "flux": "^2.0.3",
+    "object-assign": "^3.0.0",
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "browserify": "^10.2.4",
+    "reactify": "^1.1.1"
+  },
+  "scripts":{
+    "start":"browserify -t reactify js/app.js -o ./build/bundle.js"
+  }
+}
